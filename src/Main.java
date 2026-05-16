@@ -22,7 +22,7 @@ public class Main {
 
         graph.addEdge(astana, aktobe, 1000);
 
-        System.out.println("=== Breadth First Search ===");
+        System.out.println("Breadth First Search ");
 
         Search<String> bfs = new Search<>();
 
@@ -31,7 +31,7 @@ public class Main {
 
         System.out.println("BFS path from Astana to Aktau: " + bfsPath);
 
-        System.out.println("\n=== Dijkstra Search ===");
+        System.out.println("\nDijkstra Search");
 
         DijkstraSearch<String> dijkstra =
                 new DijkstraSearch<>();
