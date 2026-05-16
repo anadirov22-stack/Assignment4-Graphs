@@ -49,3 +49,4 @@ public class Vertex<V> {
         return data.toString();
     }
 }
+
